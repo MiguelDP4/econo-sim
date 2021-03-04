@@ -5,15 +5,17 @@ default: &default
   # For details on connection pooling, see Rails configuration guide
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: mike
-  password: <%= ENV['econo_sim_DATABASE_PASSWORD'] %>
+  username: railsdb
+  password: <%= ENV['RAILSDB_DATABASE_PASSWORD'] %>
 
 development:
   <<: *default
+  host: localhost
   database: econo_sim_development
 
 test:
   <<: *default
+  host: localhost
   database: econo_sim_test
 
 production:

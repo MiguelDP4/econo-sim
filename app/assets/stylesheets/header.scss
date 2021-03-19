@@ -1,0 +1,30 @@
+header {
+  margin: 0;
+  padding: 8px;
+  background-color: #3b3a4a;
+  height: 40px;
+  display: flex;
+  .header-logo {
+    height: 100%;
+    .header-logo-image {
+      height: 100%;
+
+    }
+  }
+  .header-menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    a {
+      margin-left: 7px;
+      margin-right: 7px;
+      color: #B7B8A4;
+      text-decoration: none;
+      transition: 0.3s;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}

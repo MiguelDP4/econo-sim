@@ -1,0 +1,2 @@
+class LandPlot < ApplicationRecord
+end

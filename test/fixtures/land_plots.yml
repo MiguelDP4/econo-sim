@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  position_x: 1
+  position_y: 1
+  fertility: 1
+  trees: 1
+  stone: 1
+  iron_ore: 1
+  copper_ore: 1
+
+two:
+  position_x: 1
+  position_y: 1
+  fertility: 1
+  trees: 1
+  stone: 1
+  iron_ore: 1
+  copper_ore: 1
